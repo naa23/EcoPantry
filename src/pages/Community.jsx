@@ -16,20 +16,10 @@ const Community = () => {
     setLoading(true);
     try {
       const response = await UserService.FetchCommunityItems(); 
-<<<<<<< HEAD
       const { items, title, location } = response.data;
       setItems(items); 
       setTitle(title); 
       setLocation(location); 
-=======
-
-      const { items, title, location } = response.data;
-
-      setItems(items); 
-      setTitle(title); 
-      setLocation(location); 
-
->>>>>>> d332af6279e93138aac97783f1a6208f230b8df9
     } catch (error) {
       console.error("Error fetching community items:", error);
     } finally {
@@ -110,15 +100,12 @@ const Community = () => {
         </div>
       )}
 
-<<<<<<< HEAD
       {!loading && (
-        <div className='flex items-center justify-center bg-gray-300 w-full h-[100px] mt-16'>
+        <div className='flex items-center justify-center bg-gray-300 w-full h-[100px] mt-10'>
           <p>Created By Team Steam Sustain | © All Rights Reserved</p>
         </div>
       )}
 
-=======
->>>>>>> d332af6279e93138aac97783f1a6208f230b8df9
       <style>
         {`
           .loader {
@@ -140,8 +127,3 @@ const Community = () => {
 };
 
 export default Community;
-<<<<<<< HEAD
-=======
-message.txt
-5 KB
->>>>>>> d332af6279e93138aac97783f1a6208f230b8df9
