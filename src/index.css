@@ -5,3 +5,11 @@
 body {
     background-color: #867979;
 }
+
+@font-face {
+    font-family: 'Steelfish';
+    src: url('/src/assets/steelfish rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
