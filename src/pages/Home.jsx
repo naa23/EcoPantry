@@ -29,7 +29,7 @@ const Home = ({ user }) => {
     }, delay);
   };
 
-  const sendMessageToBackend = async (message) => {
+  const sendMessageToAI = async (message) => {
     setIsThinking(true); 
     try {
       const response = await UserService.ChatbotResponse(message);
@@ -54,7 +54,7 @@ const Home = ({ user }) => {
       
       setIsThinking(true);
       setTimeout(() => {
-        sendMessageToBackend(currentUserInput);
+        sendMessageToAI(currentUserInput);
       }, 5000);
     }
   };
