@@ -22,3 +22,5 @@ Eco Pantry goes beyond simple pantry tracking; it’s designed to foster sustain
 ---
 
 Eco Pantry is designed to be a practical, impactful tool for anyone looking to live more sustainably.
+
+Check out our [Devpost submission here](https://devpost.com/project-placeholder) for more details!
