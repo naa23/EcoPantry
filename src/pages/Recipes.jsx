@@ -39,7 +39,7 @@ const Recipes = () => {
           <div className="loader mt-4"></div>
         </div>
       ) : (
-        <div className='grid grid-cols-3 gap-4 mt-6 items-center justify-center px-20'>
+        <div className='grid grid-cols-3 gap-6 mt-6 items-center justify-center px-20'>
           {recipes.map((recipe, index) => (
             <div key={index} className='w-[250px] h-auto rounded-3xl bg-white p-4 flex flex-col items-center'>
               <img src={recipe.imageUrl} alt={recipe.name} className='w-36 h-36 mt-4 rounded-2xl' />

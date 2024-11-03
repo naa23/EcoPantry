@@ -77,9 +77,7 @@ const Home = ({ user }) => {
           <span className='font-bold text-white'>{user.username}!</span>
         </div>
       )}
-      
       <div className='flex mt-2 items-center justify-center'>
-        {/* Chat Panel */}
         <div className='flex flex-col w-[300px] h-[600px] bg-gray-300 rounded-lg mr-2'>
           <div className='flex flex-col w-[260px] h-[570px] border-2 border-gray-700 rounded-2xl mx-auto mt-4'>
             {/* Chat Header with Bot Image */}
@@ -122,7 +120,6 @@ const Home = ({ user }) => {
                 </div>
               )}
             </div>
-
             <div className='flex items-center p-3 border-t border-gray-500'>
               <input
                 type="text"
@@ -135,8 +132,6 @@ const Home = ({ user }) => {
             </div>
           </div>
         </div>
-        
-        {/* File Upload Panel */}
         <div className='flex flex-col w-[300px] h-[600px] bg-gray-300 rounded-lg relative'>
           <div className='flex flex-col w-[260px] h-[570px] border-2 border-gray-700 rounded-2xl mx-auto mt-4'>
             <div className='relative top-5 mx-auto py-3'>
@@ -176,6 +171,9 @@ const Home = ({ user }) => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='flex items-center justify-center bg-gray-300 h-[100px] w-full mt-5'>
+        <p>Created By Team Steam Sustain | © All Rights Reserved</p>
       </div>
     </div>
   );
