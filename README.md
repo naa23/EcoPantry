@@ -7,14 +7,13 @@ Eco Pantry is an app that helps you keep track of the groceries you buy. By scan
 - **Grocery Tracking**: Automatically logs items in your pantry from scanned receipts.
 - **Recipe Suggestions**: Recommends recipes tailored to the ingredients you already have, prioritizing items nearing expiration.
 - **Food Sharing**: Allows you to share surplus food with others in your community.
-- **Sustainability Tips**: Connects you with local suppliers and offers tips on sustainable shopping.
 
 ## Technology Stack
 
 - **Frontend**: Built with React and styled with Tailwind CSS for a sleek, responsive user interface.
 - **Backend**: Powered by Spring Boot and MySQL for reliable data management.
 - **AI Integration**: Utilizes OpenAI’s Vision API for receipt scanning and image recognition.
-- **Security**: Secured by Cloudflare to manage and protect AI-generated images.
+- **Security**: Secured by Cloudflare to manage and protect access to AI-generated images.
 
 ## Vision
 
@@ -23,3 +22,5 @@ Eco Pantry goes beyond simple pantry tracking; it’s designed to foster sustain
 ---
 
 Eco Pantry is designed to be a practical, impactful tool for anyone looking to live more sustainably.
+
+Check out our [Devpost submission here](https://devpost.com/project-placeholder) for more details!
