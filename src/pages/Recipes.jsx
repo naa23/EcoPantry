@@ -32,14 +32,14 @@ const Recipes = () => {
   };
 
   return (
-    <div className='mt-10'>
+    <div className='mt-10 flex flex-col items-center'>
       {loading ? (
         <div className="flex flex-col items-center justify-center mt-20 text-gray-200 text-xl">
           <p>Loading recipes...</p>
           <div className="loader mt-4"></div>
         </div>
       ) : (
-        <div className='grid grid-cols-3 gap-6 mt-6 items-center justify-center px-20'>
+        <div className='grid grid-cols-3 gap-40 mt-6 items-center justify-center'>
           {recipes.map((recipe, index) => (
             <div key={index} className='w-[250px] h-auto rounded-3xl bg-white p-4 flex flex-col items-center'>
               <img src={recipe.imageUrl} alt={recipe.name} className='w-36 h-36 mt-4 rounded-2xl' />
@@ -69,6 +69,12 @@ const Recipes = () => {
             <p className='mt-2 text-gray-700'>{selectedRecipe.time}</p>
             <p className='mt-4 text-sm'>{selectedRecipe.instructions}</p>
           </div>
+        </div>
+      )}
+
+      {!loading && (
+        <div className='flex items-center justify-center bg-gray-300 w-full h-[100px] mt-60'>
+          <p>Created By Team Steam Sustain | © All Rights Reserved</p>
         </div>
       )}
 
