@@ -68,7 +68,7 @@ const Signup = () => {
         <div className='flex items-start justify-start mt-6'>
           <input type="checkbox" required className='outline-none mt-1' />
           <p className='text-gray-300 ml-1 text-sm'>I have read and agreed to the</p>
-          <a href="#" className='text-gray-300 underline ml-1 text-sm'>Terms and Conditions</a>
+          <a href="https://sites.google.com/view/ecopantry/home" target="_blank" rel="noopener noreferrer" className='text-gray-300 underline ml-1 text-sm'>Terms and Conditions</a>
         </div>
         
         <div className='flex items-center justify-center mt-5'>
