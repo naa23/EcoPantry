@@ -23,4 +23,6 @@ Eco Pantry goes beyond simple pantry tracking; it’s designed to foster sustain
 
 Eco Pantry is designed to be a practical, impactful tool for anyone looking to live more sustainably.
 
+We’re proud to announce that Eco Pantry won the **Best Themed Hack** at HackNJIT 2024, recognizing our commitment to sustainability and innovative approach!
+
 Check out our [Devpost submission here](https://devpost.com/software/ecopantry-4u2qbj#updates) for more details!
